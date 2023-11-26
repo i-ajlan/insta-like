@@ -1,0 +1,63 @@
+.feed{
+    background-image: url("../public/images/skyNightImg.jpg");
+    color: white;
+}
+
+.following_profiles{
+    background-color: red;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 90px;
+    gap: 7px;
+    padding: 1%;
+    overflow-x: scroll;
+    position: sticky;
+    top: 0;
+}
+
+.following_profiles::-webkit-scrollbar{
+    width: 0.50rem;   
+}
+.following_profiles::-webkit-scrollbar-track{
+    background-color: black;
+}
+.following_profiles::-webkit-scrollbar{
+    background-color: blue;
+}
+
+.profile_icon{
+    background-color: orange;
+}
+
+.feed_posts_list{
+    display: grid;
+    grid-template-columns: minmax(300px, 600px);
+    justify-content: center;
+    gap: 2px;
+}
+
+.feed_post{
+     /* max-height: 400px; */
+     display: grid;
+     grid-template-rows: 1fr 400px 1fr;
+}
+
+.feed_post > img{
+    width: 100%;
+    max-height: 100%;
+    object-fit: center;
+    border-radius: 25px;
+    transition: ease-in 0.25s
+}
+
+.feed_post > img:hover{
+    border-radius: 0;
+}
+
+.post_prof{
+    
+}
+
+.post_footer{
+    
+}

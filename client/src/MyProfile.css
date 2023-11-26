@@ -1,0 +1,121 @@
+.my_profile{
+    background-color: rgb(12, 12, 28);
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 300px  300px 1fr 1fr ;
+    grid-template-rows: 1fr 150px 600px;
+}
+
+.my_profile_body, .background_profile_picture{
+    grid-row: 2/3;
+}
+
+.my_profile_body, .posts{
+    grid-row: 3/4;
+}
+
+.my_profile_body{
+    grid-column: 3/5;
+    grid-row: 1/-1;
+    background: url("../public/images/skyNightImg.jpg");
+    
+}
+
+.background_profile_picture{
+    background-color:  red;
+    grid-column: 2/6;
+    border-radius: 10px;
+    position: relative;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), transparent), url("../public/images/streetsImg.avif");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.5);
+    
+}
+
+.profile_picture{
+    /* background-color: green; */
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0 , 0, 0.5);
+    background-image: url("../public/images/girlWithHeadphoneImg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.posts{
+    background-color: transparent;
+    grid-column: 3/5;
+    color: #fff;
+    padding: 3%;
+    font-size: 1.25rem;
+
+}
+
+.posts > h2 {
+    text-align: center;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding: 2px;
+}
+
+.posts_grid{
+    padding-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2px;
+    overflow-y: auto;
+    max-height: 90%;
+}
+
+.posts_elem{
+    display: grid;
+}
+
+.posts_elem img, .posts_button{
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.posts_button{
+    place-self: end;
+    justify-self: stretch;
+    background: linear-gradient(transparent, white, gray);
+    color: black;
+    text-align: center;
+    padding: 2px;
+    display: none;
+    transition: ease-in 5s;
+}
+
+
+.posts_elem:hover>.posts_button{
+    display: block;
+}
+
+.posts_elem img{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+}
+
+.posts_elem:first-child{
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+.posts_grid::-webkit-scrollbar{
+    width: 1rem;
+}
+
+.posts_grid::-webkit-scrollbar-track{
+    background-color: white;
+    border-radius: 10px;
+}
+.posts_grid::-webkit-scrollbar-thumb{
+    background-color: gray;
+    border-radius: 10px;
+}

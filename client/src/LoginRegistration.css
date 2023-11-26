@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Satisfy&display=swap');
+
+
+.LoginRegistration {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../public/images/LRBackgroundImg.jpg) ;
+    background-size: cover; 
+}
+
+
+.LR_input{
+    outline: none;
+    width: 100%;
+    border: none;
+    font-size: 1.25rem;
+    padding: 0.50rem;
+    background-color: transparent;
+    border-bottom: 2px solid blue;
+    transition: ease-in-out 0.25s;
+}
+
+.LR_input:valid, .LR_input:focus {
+    border-radius: 15px;
+    border: 2px solid blue;
+    background-color: rgba(0, 0, 255, 0.2);
+}
+
+.form{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 10%;
+    border-radius: 10px;
+    box-shadow: -2px -2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.LR_title > h1{
+    font-family: "Satisfy", cursive;
+    text-align: center;
+}
+.LR_message > p {
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.5);
+    border-radius: 20px;
+    color: white;
+    transition: ease-in-out 0.25s;
+}
+/* .LR_button::before {
+    content: ' ';
+    position: absolute;
+    top:-5px;
+    left: -5px;
+    width: 100%;
+    height: 100%;
+    z-index: -5;
+     isolation: isolate; 
+    padding: 15px;
+    background: linear-gradient(to bottom, red, blue);
+} */
+
+.LR_footer {
+    text-align: center;
+    letter-spacing: 0.25rem;
+    color: rgba(0, 0, 255, 0.7);
+    cursor: pointer;
+}
+
+.LR_div{
+    position: relative;
+}
+
+.LR_div > label {
+    position: absolute;
+    top : 10px;
+    left: 0px;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+    font-size: 1.25rem ;
+    user-select: none;
+    pointer-events: null;
+    color: rgba(0, 0, 255, 0.5);
+
+}
+
+.LR_input:valid + label ,.LR_input:focus + label{
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    font-size: 0.75rem;
+    margin-left: 10px;
+    top: -5px;
+    z-index: 5;
+
+}
+
+.LR_button {
+    letter-spacing: 0.25rem;
+    font-size: 1.25rem;
+    position: relative;
+    background: blue;
+    /* isolation: isolate; */
+    z-index: 4;
+    align-self: center;
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 0.75rem;
+    color: white;
+    width: 75%;
+    box-shadow: none;
+    transition: ease-in 0.25s;
+    
+}
+
+.LR_button:hover{
+    letter-spacing: 0.50rem;
+    /* border : 2px solid white; */
+}
+
+
