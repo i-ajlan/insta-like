@@ -1,9 +1,11 @@
 import React, {useState} from 'react'
 import './LoginRegistration.css'
+import { Navigate, useNavigate } from 'react-router-dom';
 
 function LoginRegistration() {
     const [message, setMessage] = useState('');
     const [isRegistered, setIsRegistered] = useState(false);
+    const navigate = useNavigate();
 
 const showMessages = (message) => {
     setMessage(message);
@@ -19,6 +21,7 @@ const handleSubmit = (e) => {
             showMessages("Empty value not allowed");
     }else{
         e.currentTarget.reset()
+        navigate('/feed');
     }
 
 }

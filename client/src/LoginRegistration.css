@@ -7,8 +7,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../public/images/LRBackgroundImg.jpg) ;
+    /* background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../public/images/LRBackgroundImg.jpg) ; */
+    background-color: black;
     background-size: cover; 
+    isolation: isolate;
+    /* z-index: -55; */
 }
 
 
@@ -30,6 +33,7 @@
 }
 
 .form{
+    position: relative;
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
@@ -37,6 +41,19 @@
     padding: 10%;
     border-radius: 10px;
     box-shadow: -2px -2px 4px rgba(0, 0, 0, 0.3);
+    /* z-index: 0; */
+    /* isolation: isolate; */
+}
+
+.form::before{
+    content: '';
+    position: absolute;
+    background: linear-gradient(to bottom right, red, blue);
+    inset: -0.5rem;
+    border-radius: inherit;
+    z-index: -1;
+
+
 }
 
 .LR_title > h1{

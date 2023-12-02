@@ -1,4 +1,4 @@
-import { Routes, Route, useNavigate } from 'react-router-dom';
+import { Routes, Route, useNavigate, Navigate } from 'react-router-dom';
 import './App.css';
 import LoginRegistration from './LoginRegistration';
 import { useEffect } from 'react';
@@ -14,6 +14,7 @@ function App() {
 
   return (
     <Routes>
+      <Route path='/' element={<Navigate to='/logRegister'/>}/>
       <Route path="/logRegister" element={<LoginRegistration/>}/>
       <Route element={<Header/>}>
         <Route path='/myProfile' element={<MyProfile/>}/>
