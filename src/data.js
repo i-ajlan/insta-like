@@ -1,5 +1,5 @@
 export const trendImg = [
-    {url : './images/manReadingImg.avif'},
+    {url : '../public/images/manReadingImg.avif'},
     {url : './images/phoneImg.avif'},
     {url : './images/keyboardImg.avif'},
     {url : './images/natureImg.avif'},
