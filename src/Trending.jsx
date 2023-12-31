@@ -81,55 +81,55 @@ function Trending() {
         </h2>
         <div className="posts_section">
           <div className='section_img'>
-            <img src="./images/dogLookingAtMeImg.jpg" alt="" />
+            <img src="../public/images/dogLookingAtMeImg.jpg" alt="" />
           </div>
           <div className='section_img'>
-            <img src="./images/dogLookingAtMeImg.jpg" alt="" />
+            <img src="../public/images/dogLookingAtMeImg.jpg" alt="" />
           </div>
           <div className='section_img'>
-            <img src="./images/dogLookingAtMeImg.jpg" alt="" />
+            <img src="../public/images/dogLookingAtMeImg.jpg" alt="" />
           </div>
           <div className='section_img'>
-            <img src="./images/dogLookingAtMeImg.jpg" alt="" />
+            <img src="../public/images/dogLookingAtMeImg.jpg" alt="" />
           </div>
           <div className='section_img'>
-            <img src="./images/dogLookingAtMeImg.jpg" alt="" />
+            <img src="../public/images/dogLookingAtMeImg.jpg" alt="" />
           </div>
           <div className='section_img'>
-            <img src="./images/dogLookingAtMeImg.jpg" alt="" />
+            <img src="../public/images/dogLookingAtMeImg.jpg" alt="" />
           </div>
           <div className='section_img'>
-            <img src="./images/dogLookingAtMeImg.jpg" alt="" />
+            <img src="../public/images/dogLookingAtMeImg.jpg" alt="" />
           </div>
           <div className='section_img'>
-            <img src="./images/dogLookingAtMeImg.jpg" alt="" />
+            <img src="../public/images/dogLookingAtMeImg.jpg" alt="" />
           </div>
           <div className='section_img'>
-            <img src="./images/dogLookingAtMeImg.jpg" alt="" />
+            <img src="../public/images/dogLookingAtMeImg.jpg" alt="" />
           </div>
           <div className='section_img'>
-            <img src="./images/dogLookingAtMeImg.jpg" alt="" />
+            <img src="../public/images/dogLookingAtMeImg.jpg" alt="" />
           </div>
           <div className='section_img'>
-            <img src="./images/dogLookingAtMeImg.jpg" alt="" />
+            <img src="../public/images/dogLookingAtMeImg.jpg" alt="" />
           </div>
           <div className='section_img'>
-            <img src="./images/dogLookingAtMeImg.jpg" alt="" />
+            <img src="../public/images/dogLookingAtMeImg.jpg" alt="" />
           </div>
           <div className='section_img'>
-            <img src="./images/dogLookingAtMeImg.jpg" alt="" />
+            <img src="../public/images/dogLookingAtMeImg.jpg" alt="" />
           </div>
           <div className='section_img'>
-            <img src="./images/dogLookingAtMeImg.jpg" alt="" />
+            <img src="../public/images/dogLookingAtMeImg.jpg" alt="" />
           </div>
           <div className='section_img'>
-            <img src="./images/dogLookingAtMeImg.jpg" alt="" />
+            <img src="../public/images/dogLookingAtMeImg.jpg" alt="" />
           </div>
           <div className='section_img'>
-            <img src="./images/dogLookingAtMeImg.jpg" alt="" />
+            <img src="../public/images/dogLookingAtMeImg.jpg" alt="" />
           </div>
           <div className='section_img'>
-            <img src="./images/dogLookingAtMeImg.jpg" alt="" />
+            <img src="../public/images/dogLookingAtMeImg.jpg" alt="" />
           </div>
         </div>
         
