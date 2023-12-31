@@ -1,6 +1,6 @@
 {
   // "homepage":"http://i-ajlan.github.io/insta-like",
-  "name": "client",
+  "name": "insta-like",
   "private": true,
   "version": "0.0.0",
   "type": "module",
