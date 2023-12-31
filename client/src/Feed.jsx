@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { feedImg } from './data'
 import './Feed.css'
 
