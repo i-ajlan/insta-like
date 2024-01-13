@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import Post from './Post'
+import oldLadyImg from "./assets/images/oldLadyClassyImg.jpg"
 import './MyProfile.css'
 
 function MyProfile() {
@@ -19,59 +20,59 @@ function MyProfile() {
         <h2>My Posts</h2>
         <div className='posts_grid'>     
           <div className='posts_elem'>
-            <img src="./images/oldLadyClassyImg.jpg"   alt="meeting" />
+            <img src={oldLadyImg}   alt="meeting" />
             <div className="posts_button">
               <p>likes            share</p>
               </div>    
           </div>       
           <div className='posts_elem'>
-            <img src="./images/oldLadyClassyImg.jpg"   alt="meeting" />
+            <img src={oldLadyImg}   alt="meeting" />
             <div className="posts_button">
               <p>likes            share</p>
               </div>    
           </div>       
           <div className='posts_elem'>
-            <img src="./images/oldLadyClassyImg.jpg"   alt="meeting" />
+            <img src={oldLadyImg}   alt="meeting" />
             <div className="posts_button">
               <p>likes            share</p>
               </div>    
           </div>       
           <div className='posts_elem'>
-            <img src="./images/oldLadyClassyImg.jpg"   alt="meeting" />
+            <img src={oldLadyImg}   alt="meeting" />
             <div className="posts_button">
               <p>likes            share</p>
               </div>    
           </div>       
           <div className='posts_elem'>
-            <img src="./images/oldLadyClassyImg.jpg"   alt="meeting" />
+            <img src={oldLadyImg}   alt="meeting" />
             <div className="posts_button">
               <p>likes            share</p>
               </div>    
           </div>       
           <div className='posts_elem'>
-            <img src="./images/oldLadyClassyImg.jpg"   alt="meeting" />
+            <img src={oldLadyImg}   alt="meeting" />
             <div className="posts_button">
               <p>likes            share</p>
               </div>    
           </div>       
           <div className='posts_elem'>
-            <img src="./images/oldLadyClassyImg.jpg"   alt="meeting" />
+            <img src={oldLadyImg}   alt="meeting" />
             <div className="posts_button">
               <p>likes            share</p>
               </div>    
           </div>       
           <div className='posts_elem'>
-            <img src="./images/oldLadyClassyImg.jpg"   alt="meeting" />
+            <img src={oldLadyImg}   alt="meeting" />
             <div className="posts_button">
               <p>likes            share</p>
               </div>    
           </div>       
           <div className='posts_elem'>
-            <img src="./images/oldLadyClassyImg.jpg"   alt="meeting" />  
+            <img src={oldLadyImg}   alt="meeting" />  
 
           </div>       
           <div className='posts_elem'>
-            <img src="./images/oldLadyClassyImg.jpg"   alt="meeting" />
+            <img src={oldLadyImg}   alt="meeting" />
             <div className="posts_button">
               <p>likes            share</p>
               </div>    

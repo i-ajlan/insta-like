@@ -17,7 +17,7 @@
 .my_profile_body{
     grid-column: 3/5;
     grid-row: 1/-1;
-    background: url("../public/images/skyNightImg.jpg");
+    background: url("./assets/images/skyNightImg.jpg");
     
 }
 
@@ -26,7 +26,7 @@
     grid-column: 2/6;
     border-radius: 10px;
     position: relative;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), transparent), url("../public/images/streetsImg.avif");
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), transparent), url("./assets/images/streetsImg.avif");
     background-size: cover;
     background-position: center;
     box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.5);
@@ -42,7 +42,7 @@
     width: 5rem;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0 , 0, 0.5);
-    background-image: url("../public/images/girlWithHeadphoneImg.jpg");
+    background-image: url("./assets/images/girlWithHeadphoneImg.jpg");
     background-position: center;
     background-size: cover;
 }

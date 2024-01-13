@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { trendImg } from './data';
+import dogImg from './assets/images/dogLookingAtMeImg.jpg';
 import './Trending.css'
 
 function Trending() {
@@ -81,55 +82,55 @@ function Trending() {
         </h2>
         <div className="posts_section">
           <div className='section_img'>
-            <img src="../public/images/dogLookingAtMeImg.jpg" alt="" />
+            <img src={dogImg} alt="" />
           </div>
           <div className='section_img'>
-            <img src="../public/images/dogLookingAtMeImg.jpg" alt="" />
+            <img src={dogImg} alt="" />
           </div>
           <div className='section_img'>
-            <img src="../public/images/dogLookingAtMeImg.jpg" alt="" />
+            <img src={dogImg} alt="" />
           </div>
           <div className='section_img'>
-            <img src="../public/images/dogLookingAtMeImg.jpg" alt="" />
+            <img src={dogImg} alt="" />
           </div>
           <div className='section_img'>
-            <img src="../public/images/dogLookingAtMeImg.jpg" alt="" />
+            <img src={dogImg} alt="" />
           </div>
           <div className='section_img'>
-            <img src="../public/images/dogLookingAtMeImg.jpg" alt="" />
+            <img src={dogImg} alt="" />
           </div>
           <div className='section_img'>
-            <img src="../public/images/dogLookingAtMeImg.jpg" alt="" />
+            <img src={dogImg} alt="" />
           </div>
           <div className='section_img'>
-            <img src="../public/images/dogLookingAtMeImg.jpg" alt="" />
+            <img src={dogImg} alt="" />
           </div>
           <div className='section_img'>
-            <img src="../public/images/dogLookingAtMeImg.jpg" alt="" />
+            <img src={dogImg} alt="" />
           </div>
           <div className='section_img'>
-            <img src="../public/images/dogLookingAtMeImg.jpg" alt="" />
+            <img src={dogImg} alt="" />
           </div>
           <div className='section_img'>
-            <img src="../public/images/dogLookingAtMeImg.jpg" alt="" />
+            <img src={dogImg} alt="" />
           </div>
           <div className='section_img'>
-            <img src="../public/images/dogLookingAtMeImg.jpg" alt="" />
+            <img src={dogImg} alt="" />
           </div>
           <div className='section_img'>
-            <img src="../public/images/dogLookingAtMeImg.jpg" alt="" />
+            <img src={dogImg} alt="" />
           </div>
           <div className='section_img'>
-            <img src="../public/images/dogLookingAtMeImg.jpg" alt="" />
+            <img src={dogImg} alt="" />
           </div>
           <div className='section_img'>
-            <img src="../public/images/dogLookingAtMeImg.jpg" alt="" />
+            <img src={dogImg} alt="" />
           </div>
           <div className='section_img'>
-            <img src="../public/images/dogLookingAtMeImg.jpg" alt="" />
+            <img src={dogImg} alt="" />
           </div>
           <div className='section_img'>
-            <img src="../public/images/dogLookingAtMeImg.jpg" alt="" />
+            <img src={dogImg} alt="" />
           </div>
         </div>
         
@@ -140,7 +141,7 @@ function Trending() {
         </h2>
         <div className="posts_section">
           <div className='section_img'>
-            <img src="./images/dogLookingAtMeImg.jpg" alt="" />
+            <img src={dogImg} alt="" />
           </div>
         </div>
       </div>
@@ -150,7 +151,7 @@ function Trending() {
         </h2>
         <div className="posts_section">
           <div className='section_img'>
-            <img src="./images/dogLookingAtMeImg.jpg" alt="" />
+            <img src={dogImg} alt="" />
           </div>
         </div>
       </div>
